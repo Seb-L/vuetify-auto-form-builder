@@ -35,7 +35,7 @@ export default Vue.extend<Props>({
           opts.on.input = (newValue: unknown) => {
             (listeners.input as Emit)({
               ...props.value,
-              [item.model]: newValue,
+              [item.model as string]: newValue,
             })
           }
         }
