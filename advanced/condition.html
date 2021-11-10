@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Conditional | Vuetify Auto Form Builder</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Vuetify form builder, with nested components and templating capabilities.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seb-l.github.io/vuetify-auto-form-builder/">
+    <meta property="og:title" content="Pinia Plugin Persist">
+    <meta property="og:description" content="Vuetify form builder, with nested components and templating capabilities.">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://seb-l.github.io/vuetify-auto-form-builder/">
+    <meta property="twitter:title" content="Pinia Plugin Persist">
+    <meta property="twitter:description" content="Vuetify form builder, with nested components and templating capabilities.">
+    
+    <link rel="preload" href="/vuetify-auto-form-builder/assets/css/0.styles.fc3cbe70.css" as="style"><link rel="preload" href="/vuetify-auto-form-builder/assets/js/app.d53f5ad8.js" as="script"><link rel="preload" href="/vuetify-auto-form-builder/assets/js/2.214341b3.js" as="script"><link rel="preload" href="/vuetify-auto-form-builder/assets/js/7.520715c1.js" as="script"><link rel="preload" href="/vuetify-auto-form-builder/assets/js/5.8fb2962b.js" as="script"><link rel="prefetch" href="/vuetify-auto-form-builder/assets/js/10.dcf0b981.js"><link rel="prefetch" href="/vuetify-auto-form-builder/assets/js/11.087b0831.js"><link rel="prefetch" href="/vuetify-auto-form-builder/assets/js/12.e9dc0f4d.js"><link rel="prefetch" href="/vuetify-auto-form-builder/assets/js/13.6f150d5f.js"><link rel="prefetch" href="/vuetify-auto-form-builder/assets/js/3.3d3b1fb9.js"><link rel="prefetch" href="/vuetify-auto-form-builder/assets/js/4.9c0d3927.js"><link rel="prefetch" href="/vuetify-auto-form-builder/assets/js/6.7a505dc8.js"><link rel="prefetch" href="/vuetify-auto-form-builder/assets/js/8.09352967.js"><link rel="prefetch" href="/vuetify-auto-form-builder/assets/js/9.fff672fb.js">
+    <link rel="stylesheet" href="/vuetify-auto-form-builder/assets/css/0.styles.fc3cbe70.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vuetify-auto-form-builder/" class="home-link router-link-active"><!----> <span class="site-name">Vuetify Auto Form Builder</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vuetify-auto-form-builder/get-started.html" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="https://github.com/Seb-L/vuetify-auto-form-builder" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vuetify-auto-form-builder/get-started.html" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="https://github.com/Seb-L/vuetify-auto-form-builder" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/vuetify-auto-form-builder/get-started.html" class="sidebar-link">Getting started</a></li><li><a href="/vuetify-auto-form-builder/basic-usage.html" class="sidebar-link">Basic usage</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Advanced Usage</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vuetify-auto-form-builder/advanced/condition.html" aria-current="page" class="active sidebar-link">Conditional</a></li><li><a href="/vuetify-auto-form-builder/advanced/nested.html" class="sidebar-link">Nested components</a></li><li><a href="/vuetify-auto-form-builder/advanced/events.html" class="sidebar-link">Events</a></li></ul></section></li><li><a href="/vuetify-auto-form-builder/examples.html" class="sidebar-link">Examples</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="conditional"><a href="#conditional" class="header-anchor">#</a> Conditional</h1> <p>For a live preview, see the <a href="/vuetify-auto-form-builder/examples.html">Example page</a>.</p> <!----></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vuetify-auto-form-builder/basic-usage.html" class="prev">
+        Basic usage
+      </a></span> <span class="next"><a href="/vuetify-auto-form-builder/advanced/nested.html">
+        Nested components
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/vuetify-auto-form-builder/assets/js/app.d53f5ad8.js" defer></script><script src="/vuetify-auto-form-builder/assets/js/2.214341b3.js" defer></script><script src="/vuetify-auto-form-builder/assets/js/7.520715c1.js" defer></script><script src="/vuetify-auto-form-builder/assets/js/5.8fb2962b.js" defer></script>
+  </body>
+</html>
